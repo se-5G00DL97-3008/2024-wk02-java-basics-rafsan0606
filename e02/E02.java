@@ -9,12 +9,12 @@ class E02 {
         System.out.println("Give another number:");
         int num2 = scanner.nextInt();
 
-        int sum = num1 + num2 - 1;
+        int sum = num1 + num2;
         int multiplication = num1 * num2;
         int substraction = num1 - num2;
         int division = num1 / num2;
 
-        System.out.println(num1 + " + " + num2 + " = " + sum);
+        System.out.println("\n" + num1 + " + " + num2 + " = " + sum);
         System.out.println(num1 + " * " + num2 + " = " + multiplication);
         System.out.println(num1 + " - " + num2 + " = " + substraction);
         System.out.println(num1 + " / " + num2 + " = " + division);
