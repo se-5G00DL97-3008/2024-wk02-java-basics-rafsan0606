@@ -5,7 +5,7 @@ class E05 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter a number: ");
+        System.out.println("Enter a number:");
         int dayNumber = scanner.nextInt();
 
         switch (dayNumber) {
