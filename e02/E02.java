@@ -14,7 +14,7 @@ class E02 {
         int substraction = num1 - num2;
         int division = num1 / num2;
 
-        System.out.println("\n" + num1 + " + " + num2 + " = " + sum);
+        System.out.println(num1 + " + " + num2 + " = " + sum);
         System.out.println(num1 + " * " + num2 + " = " + multiplication);
         System.out.println(num1 + " - " + num2 + " = " + substraction);
         System.out.println(num1 + " / " + num2 + " = " + division);
