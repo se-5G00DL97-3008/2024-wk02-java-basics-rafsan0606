@@ -9,7 +9,7 @@ class E02 {
         System.out.println("Give another number:");
         int num2 = scanner.nextInt();
 
-        int sum = num1 + num2;
+        int sum = num1 + num2 - 1;
         int multiplication = num1 * num2;
         int substraction = num1 - num2;
         int division = num1 / num2;
